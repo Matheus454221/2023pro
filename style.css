@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+header {
+    background-color: #89B6A5;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+
+nav {
+   display: flex;
+   gap: 8rem;
+   padding: 0.5rem;
+   border-radius: 10px;
+}
+
+header a:hover {
+    background: #4C3B4D;
+    transform: scate(1.1);
+    transition: transforem .3s;
+}
